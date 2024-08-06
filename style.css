@@ -51,9 +51,23 @@ h1{
 }
 .list{
     position: absolute;
-    right: 2%;
-    top: 23%;
-    width: 50%;
-    width: 40px;
+    background-color: white;
+    right: 26%;
+    top: 29%;
+    width: 30px;
     height: auto;
+    cursor: pointer;
+}
+a{
+    color: blue;
+    margin-top: 50%;
+    margin-left: 48%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 33%;
+}
+nav ul li{
+    margin-right: 1em;
 }
