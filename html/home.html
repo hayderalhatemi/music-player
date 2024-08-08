@@ -8,7 +8,12 @@
 </head>
 <body>
    <header>
-    <h1>Music player</h1>
+    <div class="logo">
+        <h1>Music player</h1>
+    </div>
+    <div class="contact">
+        <a href="">Contact us</a>
+    </div>
     <nav>
         <ul>
             <li><a href="">Home</a></li>
@@ -18,21 +23,24 @@
         </ul>
     </nav>
   </header>
-    <img class="list" src="../list.svg">
+  <main>
     <div class="audio">
         <audio controls>
-            <source src="../audio/Desert Drive.mp3" type=""><audio/mp3></audio>
+            <source src="../audio/Desert Drive.mp3" type="audio/mp3">
             <source src="../audio/Don't Steal My Heart.mp3" type="audio/mp3">
             <source src="../audio/Running It Down.mp3" type="audio/mp3">
             You browser does not support the audio element.
         </audio>
+        <img class="list" src="../list.svg">
         <div class="buttons">
             <button id="previous">Previous</button>
             <button id="next">Next</button>
         </div>
     </div>
-   <a href="../html/song.html">See more</a>
-
+  </main>
+  <footer>
+    <a href="../html/song.html">See more</a>
+  </footer>
     <script src="script.js"></script>
 </body>
 </html>

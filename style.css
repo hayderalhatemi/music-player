@@ -7,22 +7,17 @@
 body{
     background-color: rgb(122, 23, 31);
 }
-h1{
+.logo{
     color: white;
-    text-align: center;
-    margin: 20px 10px;
+    text-align: left;
+    margin: 10px;
 }
-.images{
-    margin: 10px ;
-    padding: 0;
-    text-align: center;
-    border-bottom: 5px solid rgb(22, 1, 1);
+.contact{
+    text-align: right;
+    margin: -40px 10px auto auto;
 }
-.images img{
-    width: 30px;
-    height: auto;
-    margin: 20px;
-    border-radius: 12px;
+.contact a{
+    color: white;
 }
 .audio{
     text-align: center;
@@ -50,13 +45,11 @@ h1{
     cursor: pointer;
 }
 .list{
-    position: absolute;
-    background-color: white;
-    right: 26%;
-    top: 29%;
-    width: 30px;
+    width: 35px;
     height: auto;
+    background-color: white;
     cursor: pointer;
+
 }
 a{
     color: blue;
@@ -71,6 +64,7 @@ nav ul{
 nav ul li{
     margin-right: 1em;
 }
-.sami{
-    color: black;
+.audio2{
+    display: flex;
+    justify-content: center;
 }
