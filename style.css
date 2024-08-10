@@ -43,7 +43,7 @@ body{
     padding: 5px;
     margin: 5px;
 }
-#previous{
+#pre{
     background-color: white;
     color: black;
     border: none;
@@ -62,10 +62,6 @@ body{
     margin: 10px;
     font-weight: bold;
     cursor: pointer;
-}
-.audio2{
-    display: flex;
-    justify-content: center;
 }
 .hero{
     color: red;
@@ -87,8 +83,18 @@ body{
 .seeMore a{
     color: blue;
 }
+.audio2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 222px;
+}
 .home{
     display: flex;
     justify-content: center;
-    margin: 65% auto auto auto;
+    position: relative;
+    top: 400px;
+}
+.home a{
+    color: blue;
 }
