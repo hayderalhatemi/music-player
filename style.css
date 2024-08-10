@@ -5,7 +5,14 @@
     font-family: sans-serif;
 }
 body{
-    background-color: black;
+    background-color: #333;
+}
+main{
+    background-color: #ffe0e5;
+    height: 60vh;
+    text-align: center;
+    align-items: center;
+    margin: auto 99px;
 }
 .logo{
     color: white;
@@ -27,15 +34,24 @@ body{
     color: blue;
     padding: 10px;
 }
+.hero{
+    color: red;
+    text-align: center;
+    height: 100px;
+    padding: px;
+    
+}
+.hero h1{
+    font-family: cursive;
+}
+.menu{
+    text-align: right;
+    padding: 10px;
+    height: 88px;
+}
 .audio{
     display: flex;
     justify-content: center;
-}
-.list{
-    float: right;
-    width: 35px;
-    background-color: white;
-    cursor: pointer;
 }
 .buttons{
     display: flex;
@@ -63,22 +79,9 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-.hero{
-    color: red;
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-    padding: 20px;
-    border-bottom: 2px solid red;
-}
-.hero h1{
-    font-family: cursive;
-    padding: 20px;
-}
 .seeMore{
-    display: flex;
-    justify-content: center;
-    margin: 30% auto auto auto;
+    text-align: center;
+    margin-top: 22px;
 }
 .seeMore a{
     color: blue;
@@ -93,7 +96,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 400px;
+    top: 100px;
 }
 .home a{
     color: blue;
