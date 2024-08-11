@@ -30,9 +30,7 @@ main2{
 }
 .logo2{
     color: white;
-    text-align: left;
-    margin: 10px;
-    height: 77px;
+    align-items: center;
 }
 .contact{
     float: right;
@@ -108,9 +106,21 @@ main2{
     font-size: 20px;
 }
 .input{
-    position: absolute;
-    top: 25px;
-    right: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 240px;
+}
+.input input{
+    display: none;
+}
+.input label{
+    color: #fff;
+    border: 2px solid rgb(179, 6, 176);
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
 }
 .input input{
     cursor: pointer;
