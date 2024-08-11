@@ -107,19 +107,17 @@ main2{
     color: blue;
     font-size: 20px;
 }
-.audio2{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 222px;
-}
 .input{
-    text-align: right;
-    margin: -44px 5px;
-    height: 95px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.input input{
+    cursor: pointer;
 }
 .home{
-    display: flex;
+    position: relative;
+    top: 320px;
 }
 .home a{
     color: blue;
