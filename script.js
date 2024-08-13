@@ -1,10 +1,10 @@
-let upload = document.getElementById('upload');
-let song = document.getElementById('song');
-
-upload.onchange = function () {
-    let file = new FileReader();
-    file.readAsDataURL(upload.files[0]);
-    file.onload = function () {
-        song.src = file.result;
+document.getElementById('uploadd').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+        const audioPlayer = document.getElementById('music');
+        const fileURL = URL.createObjectURL(file);
+        audioPlayer.src = fileURL;
+        audioPlayer.style.display = 'block';
+        audioPlayer.play();
     }
-}
+});
