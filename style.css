@@ -111,9 +111,6 @@ main2{
     position: relative;
     top: 240px;
 }
-.input input{
-    display: none;
-}
 .input label{
     color: #fff;
     border: 2px solid rgb(179, 6, 176);
@@ -131,4 +128,8 @@ main2{
 }
 .home a{
     color: blue;
+}
+.audio2{
+    position: relative;
+    bottom: 144px;
 }

@@ -1,5 +1,5 @@
 let upload = document.getElementById('upload');
-let song = document.querySelector('.song');
+let song = document.getElementById('song');
 
 upload.onchange = function () {
     let file = new FileReader();
