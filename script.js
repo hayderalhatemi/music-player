@@ -1,7 +1,6 @@
 document.getElementById('upload').addEventListener('change', function(event) {
     const files = event.target.files;
     const audioContainer = document.querySelector('.audio2');
-    audioContainer.innerHTML = '';
 
     for (let i = 0; i < files.length; i++) {
         const file = files[i];
