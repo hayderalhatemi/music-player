@@ -19,8 +19,8 @@ main2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    margin: auto 70px;
+    height: 77vh;
+    margin: 40px 50px;
 
 }
 .logo{
@@ -106,10 +106,10 @@ main2{
     font-size: 20px;
 }
 .input{
-    display: flex;
-    justify-content: center;
+    align-items: center;
     position: relative;
     top: 240px;
+    margin-left: 80px;
 }
 .input label{
     color: #fff;
@@ -120,16 +120,21 @@ main2{
     cursor: pointer;
 }
 .input input{
-    cursor: pointer;
+    display: none;
 }
 .home{
+    text-align: center;
     position: relative;
-    top: 320px;
+    top: 310px;
+    right: 50px;
 }
 .home a{
     color: blue;
 }
 .audio2{
-    position: relative;
-    bottom: 144px;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #c92742;
 }
