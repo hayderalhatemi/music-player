@@ -7,30 +7,17 @@
 body{
     background-color: #333;
 }
-main{
+.container{
     background-color: #ffe0e5;
     height: 70vh;
     align-items: center;
     margin: auto 170px;
     border-radius: 10px;
 }
-main2{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 77vh;
-    margin: 40px 50px;
-
-}
 .logo{
     color: white;
     text-align: left;
     margin: 10px;
-}
-.logo2{
-    color: white;
-    align-items: center;
 }
 .contact{
     float: right;
@@ -105,11 +92,22 @@ main2{
     color: blue;
     font-size: 20px;
 }
-.input{
+.logo2{
+    color: white;
     align-items: center;
+}
+.content{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    height: 75vh;
+}
+.input{
+    height: 35px;
     position: relative;
-    top: 240px;
-    margin-left: 80px;
+    top: 500px;
+    right: 195px;
 }
 .input label{
     color: #fff;
@@ -122,19 +120,19 @@ main2{
 .input input{
     display: none;
 }
-.home{
-    text-align: center;
+.audio2{
+    display: flexbox;
+    justify-content: center;
+    margin: 40px;
     position: relative;
-    top: 310px;
-    right: 50px;
+    bottom: 33px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
 }
 .home a{
     color: blue;
-}
-.audio2{
-    display: table-column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #c92742;
 }
