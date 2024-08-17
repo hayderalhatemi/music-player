@@ -1,3 +1,13 @@
+let playList = document.querySelector('.audio');
+let list = document.getElementById('list');
+let back = document.getElementById('back');
+let buttons = document.querySelector('.buttons');
+
+function hideData () {
+    playList.style.display = 'none';
+    buttons.style.display = 'none';
+}
+
 document.getElementById('upload').addEventListener('change', function(event) {
     const files = event.target.files;
     const audioContainer = document.querySelector('.audio2');

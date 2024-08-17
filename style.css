@@ -112,6 +112,7 @@ body{
 }
 .input label{
     color: #fff;
+    background-color: black;
     border: 2px solid rgb(179, 6, 176);
     padding: 7px;
     border-radius: 3px;
