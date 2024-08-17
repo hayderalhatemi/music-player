@@ -6,7 +6,20 @@ let buttons = document.querySelector('.buttons');
 function hideData () {
     playList.style.display = 'none';
     buttons.style.display = 'none';
+};
+function showData () {
+    playList.style.display = 'block';
+
 }
+window.onload = hideData;
+
+list.addEventListener ('click', function() {
+    showData();
+});
+
+back.addEventListener('click', function() {
+    hideData();
+});
 
 document.getElementById('upload').addEventListener('change', function(event) {
     const files = event.target.files;

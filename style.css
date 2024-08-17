@@ -12,7 +12,7 @@ body{
     height: 70vh;
     align-items: center;
     margin: auto 170px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .logo{
     color: white;
@@ -43,6 +43,9 @@ body{
 }
 .hero h1{
     font-family: cursive;
+}
+.img{
+    height: 70vh;
 }
 .menu{
     margin-bottom: 40px;
