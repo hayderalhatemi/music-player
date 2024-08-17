@@ -5,10 +5,13 @@ document.getElementById('upload').addEventListener('change', function(event) {
     for (let i = 0; i < files.length; i++) {
         const file = files[i];
         const fileURL = URL.createObjectURL(file);
+        const fileName = document.createElement('p');
+        fileName.textContent = file.name;
+        fileName.style.fontWeight = 'bold';
         const audioPlayer = document.createElement('audio');
         audioPlayer.controls = true;
         audioPlayer.src = fileURL;
-        audioPlayer.style.display = 'block';
         audioContainer.appendChild(audioPlayer);
+        audioContainer.appendChild(fileName);
     };
 });

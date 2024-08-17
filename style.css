@@ -64,8 +64,9 @@ body{
     cursor: pointer;
 }
 .audio{
-    display: flex;
+    display: flexbox;
     justify-content: center;
+    align-items: center;
 }
 .buttons{
     display: flex;
@@ -97,7 +98,7 @@ body{
     align-items: center;
 }
 .content{
-    background-color: black;
+    background-color: rgb(165, 159, 159);
     display: flex;
     justify-content: center;
     margin: 40px;
