@@ -3,23 +3,20 @@ let list = document.getElementById('list');
 let back = document.getElementById('back');
 let buttons = document.querySelector('.buttons');
 
-function hideData () {
+window.onload = function() {
     playList.style.display = 'none';
     buttons.style.display = 'none';
 };
-function showData () {
-    playList.style.display = 'block';
-
-}
-window.onload = hideData;
 
 list.addEventListener ('click', function() {
-    showData();
+    playList.style.display = 'block';
 });
 
 back.addEventListener('click', function() {
-    hideData();
+    playList.style.display = 'none';
+    buttons.style.display = 'none';
 });
+
 
 document.getElementById('upload').addEventListener('change', function(event) {
     const files = event.target.files;
