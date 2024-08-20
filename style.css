@@ -38,7 +38,12 @@ body{
 .hero{
     color: red;
     text-align: center;
-    height: 80px;
+    width: 50%;
+    margin: 5px 25%;
+    padding: 10px;
+    border: 1px dashed; 
+    border-color: red green yellow green;
+    border-width: 2px 2px 2px;
     
 }
 .hero h1{
@@ -116,9 +121,9 @@ body{
 .input label{
     color: #fff;
     background-color: black;
-    border: 2px solid rgb(179, 6, 176);
+    border: 3px solid rgb(179, 6, 176);
     padding: 7px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
 }
