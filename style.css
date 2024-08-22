@@ -112,15 +112,20 @@ body{
 .content{
     background-color: rgb(165, 159, 159);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 40px;
     height: 75vh;
+    border-radius: 10px;
 }
 .input{
-    height: 35px;
+    text-align: center;
+    width: fit-content;
+    margin: auto 50%;
+    height: fit-content;
     position: relative;
-    top: 500px;
-    right: 195px;
+    top: 240px;
+    background-color: red;
 }
 .input label{
     color: #fff;
@@ -135,11 +140,10 @@ body{
     display: none;
 }
 .audio2{
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 40px;
-    position: relative;
-    bottom: 33px;
+    margin: 7px;
 }
 .home{
     display: flex;
