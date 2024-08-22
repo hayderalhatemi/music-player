@@ -27,6 +27,7 @@ body{
 }
 .contact a{
     color: white;
+    text-decoration: none;
 }
 .topNav{
     display: flex;
@@ -36,6 +37,7 @@ body{
     color: blue;
     padding: 10px;
     margin-top: -44px;
+    text-decoration: none;
 }
 .hero{
     color: red;
@@ -46,6 +48,7 @@ body{
     border: 1px dashed; 
     border-color: red green yellow green;
     border-width: 2px 2px 2px;
+    text-transform: uppercase;
 }
 .hero h1{
     font-family: cursive;
