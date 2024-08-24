@@ -76,9 +76,10 @@ body{
     cursor: pointer;
 }
 .audio{
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .buttons{
     display: flex;
