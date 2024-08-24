@@ -116,15 +116,16 @@ body{
     margin: 40px;
     height: 75vh;
     border-radius: 10px;
+    position: relative;
 }
 .input{
     text-align: center;
     width: fit-content;
     margin: auto 50%;
     height: fit-content;
-    position: relative;
-    top: 240px;
-    background-color: red;
+    position: absolute;
+    bottom: 0;
+    background-color: green;
 }
 .input label{
     color: #fff;
@@ -134,6 +135,9 @@ body{
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+
 }
 .input input{
     display: none;
@@ -142,6 +146,7 @@ body{
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
+    /* background-color: green; */
     margin: 7px;
     font-size: 3vw;
 }
