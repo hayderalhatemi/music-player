@@ -75,6 +75,10 @@ body{
     align-items: center;
     cursor: pointer;
 }
+.circle:hover{
+    background-color: rgb(234, 151, 167);
+    transition: 0.5s;
+}
 .audio{
     display: flex;
     justify-content: center;
@@ -131,11 +135,12 @@ body{
     background-color: black;
     border: 3px solid rgb(179, 6, 176);
     padding: 7px;
-    border-radius: 5px;
+    border-radius:7px;
     font-weight: bold;
     cursor: pointer;
     position: absolute;
     bottom: 0;
+    box-shadow: 2px 2px 2px 2px rgb(132, 112, 112);
 }
 .input input{
     display: none;
