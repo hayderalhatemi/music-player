@@ -124,8 +124,6 @@ body{
     width: fit-content;
     margin: auto 50%;
     height: fit-content;
-    position: absolute;
-    bottom: 0;
     background-color: green;
 }
 .input label{
@@ -138,25 +136,20 @@ body{
     cursor: pointer;
     position: absolute;
     bottom: 0;
-
 }
 .input input{
     display: none;
 }
 .audio2{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* background-color: green; */
     margin: 7px;
     font-size: 3vw;
 }
 .home{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 25px;
+    text-align: center;
 }
 .home a{
     color: blue;
+}
+.home a:hover{
+    color: rgb(157, 38, 141);
 }
