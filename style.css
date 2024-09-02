@@ -140,7 +140,7 @@ body{
     cursor: pointer;
     position: absolute;
     bottom: 0;
-    box-shadow: 2px 2px 2px 2px rgb(132, 112, 112);
+    box-shadow: 2px 2px 2px 2px rgb(118, 35, 35);
 }
 .input input{
     display: none;
