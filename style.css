@@ -19,7 +19,7 @@ body{
     text-align: left;
     margin: 10px;
     width: fit-content;
-    text-shadow: 0 0 15px red;
+    text-shadow: 0 0 15px rgb(176, 92, 92);
 }
 .contact{
     float: right;
@@ -40,7 +40,7 @@ body{
     text-decoration: none;
 }
 .hero{
-    color: red;
+    color: rgb(239, 229, 229);
     text-align: center;
     width: 50%;
     margin: 5px 25%;
