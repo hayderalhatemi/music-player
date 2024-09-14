@@ -19,8 +19,8 @@ window.onload = function() {
             audioPlayer.controls = true;
             audioPlayer.src = fileURL;
 
-            //audioContainer.appendChild(audioPlayer);
-            //audioContainer.appendChild(fileName);
+            audioContainer.appendChild(audioPlayer);
+            audioContainer.appendChild(fileName);
         };
     });
 
